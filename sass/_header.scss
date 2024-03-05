@@ -1,0 +1,51 @@
+body {
+  background-color: $secondaryColor;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: $secondaryColor;
+  width: 100%;
+  padding: 25px 0;
+  z-index: 999;
+}
+
+.header__nav {
+  border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.show__header__shrink {
+  padding: 15px 0;
+  box-shadow: 0px 0px 10px $hoverColor;
+  background: $secondaryColor;
+}
+
+.header__nav__logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: $primaryColor;
+}
+
+.header__nav__right__btns__contact {
+  padding: 6px 13px;
+  border: 2px solid $primaryColor;
+  background-color: $primaryColor;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s;
+  color: $secondaryColor;
+}
+
+.header__nav__right__btns__contact:hover {
+  background: $secondaryColor;
+  color: $primaryColor;
+}
+
+@media (max-width: 500px) {
+  .header__nav__right__btns__contact {
+    display: none;
+  }
+}

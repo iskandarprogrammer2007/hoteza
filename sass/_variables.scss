@@ -1,0 +1,82 @@
+$primaryColor: black;
+$secondaryColor: white;
+$backgroundColor: #a9ff2c;
+$hoverColor: #a9ff2c;
+$darkModeColor: black;
+$secondaryHoverColor: gray;
+
+h1 {
+  font-size: 55px;
+  color: $primaryColor;
+}
+h2 {
+  font-size: 40px;
+  color: $primaryColor;
+}
+h3 {
+  font-size: 22px;
+  color: $primaryColor;
+}
+p {
+  font-size: 15px;
+  color: $secondaryHoverColor;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 72px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 786px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 512px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 300px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 11px;
+  }
+}
