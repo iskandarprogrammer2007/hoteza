@@ -22,10 +22,10 @@ body {
   background: $secondaryColor;
 }
 
-.header__nav__logo {
-  font-size: 30px;
-  font-weight: 700;
-  color: $primaryColor;
+@media (max-width: 400px) {
+  .header__nav__logo img {
+    width: 90%;
+  }
 }
 
 .header__nav__right__btns__contact {
@@ -49,3 +49,4 @@ body {
     display: none;
   }
 }
+
